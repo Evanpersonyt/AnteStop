@@ -1,0 +1,13 @@
+countdown-seconds: 3
+restart-countdown-seconds: 5
+reload-countdown-seconds: 4
+messages:
+  countdown: "Arrêt dans {time} secondes..."
+  stop: "Le serveur s'arrête maintenant !"
+  restart-countdown: "Redémarrage dans {time} secondes..."
+  restart: "Le serveur redémarre maintenant !"
+  reload-countdown: "Rechargement dans {time} secondes..."
+  reload: "Le serveur se recharge maintenant !"
+  maintenance-kick: "Le serveur est en maintenance. Revenez plus tard."
+  op-maintenance-actionbar: "Le serveur est en maintenance."
+is-maintenance: false # État initial de maintenance

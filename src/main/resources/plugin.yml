@@ -1,0 +1,24 @@
+name: AnteStop
+version: 1.0
+main: com.evanperson.MonPlugin
+api-version: 1.8
+description: "systeme pour areter le serveur avec des prévention"
+authors:
+  - EvanPersonTV
+commands:
+  tempmaintenance:
+    description: Arrête le serveur avec un compte à rebours personnalisé
+    usage: /tempmaintenance
+    permission: tempstop.use
+  temprestart:
+    description: Redémarre le serveur avec un compte à rebours personnalisé
+    usage: /temprestart
+    permission: temprestart.use
+  tempreload:
+    description: Recharge le serveur avec un compte à rebours personnalisé
+    usage: /tempreload
+    permission: tempreload.use
+  stopmaintenance:
+    description: Enléve le mode maintenance 
+    usage: /stopmaintenance
+    permission: stopmaintenance.use
